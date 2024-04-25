@@ -1,0 +1,88 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --Secondarycolor: hsl(187, 85%, 43%);
+    --gradientcolor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --WhiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+}
+
+/* .booking{
+    max-height: 600px;
+    padding: 10rem;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 10px;
+    
+}
+
+.booknow{
+    padding: 20px;
+}
+
+.booknow h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.booking .btn{
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+} */
+
+.travel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.booking {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.booknow {
+    text-align: center;
+}
+
+.booknow h2 {
+    margin-bottom: 20px;
+}
+
+.inputs {
+    margin-bottom: 10px;
+}
+
+.inputs input {
+    width: 100%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

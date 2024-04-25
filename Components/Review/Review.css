@@ -1,0 +1,119 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --Secondarycolor: hsl(187, 85%, 43%);
+    --gradientcolor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --WhiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+}
+
+.Review-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+}
+
+
+.views {
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    padding: 30px;
+}
+
+.post {
+    margin-bottom: 20px;
+} 
+
+.edit {
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+}
+
+.edit:hover{
+    text-decoration: underline;
+}
+
+.star-widget {
+    text-align: center;
+}
+
+.star-container {
+    display: flex;
+    /* padding: 10px; */
+    flex-direction: row-reverse;
+    /* Change the direction to reverse */
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    font-size: 25px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.star-widget label {
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    float: center;
+    transition: all0.2s ease;
+}
+
+.iconss {
+    color: black;
+    justify-content: center;
+}
+
+.iconss:hover,
+.iconss:hover~.iconss {
+    color: gold;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    width: 50%;
+    background-color: var(--PrimaryColor);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--Secondarycolor);
+}
